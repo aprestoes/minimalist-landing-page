@@ -40,7 +40,7 @@ var rotateParagraph = false;
 */
 var connectParagraphToHeaders = false;
 
-/* The paragraphs to rotate between. If rotateParagraph disabled,
+/* The paragraphs to rotate between. If rotateParagraph is disabled,
   the first element also serves as the only paragraph. You can
   also use tags such as <a>, <span>, and a few more here.
 */
