@@ -3,9 +3,11 @@
 A simplistic, minimalistic, barebones (and all the other good ajectives) landing page with links to your work.
 
 ![](example.gif)
+
 (Default options)
 
 ![](example-with-options.gif)
+
 (With dynamic loading, rotateParagraph, and connectParagraphToHeaders enabled.)
 
 [Live site](https://aprestoes.github.io/minimalist-landing-page)
@@ -64,8 +66,9 @@ var rotateParagraph = false;
 */
 var connectParagraphToHeaders = false;
 
-/* The paragraphs to rate between. If rotateParagraph disabled,
-  the first element also serves as the only paragraph.
+/* The paragraphs to rotate between. If rotateParagraph disabled,
+  the first element also serves as the only paragraph. You can
+  also use tags such as <a>, <span>, and a few more here.
 */
 var rotatingParagraphs = [
   "Currently studying at Carleton University for computer science with a specialization in software engineering and a minor in applied linguistics. <span>Whew.</span>"
